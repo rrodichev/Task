@@ -56,6 +56,7 @@ class TaskDetailViewController: UIViewController {
         taskNameTextField.text = task.name
         taskNotesTextView.text = task.notes
         taskDueDatePicker.date = task.dueDate ?? Date()
+        self.date = task.dueDate
     }
     
 } //End of class
